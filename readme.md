@@ -57,27 +57,28 @@ plugins=(
 )
 ```
 
-## 
+## Geralemente ao final meu arquivo ~/.zshrc assim:
 
 ```shell
-```
+export ZSH="$HOME/.oh-my-zsh"
 
-## 
+ZSH_THEME="bira"
 
-```shell
-```
+plugins=(
+    git
+    docker
+    zsh-syntax-highlighting
+    zsh-autosuggestions
+)
 
-## 
+source $ZSH/oh-my-zsh.sh
 
-```shell
-```
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
 
-## 
+alias start-venv='python -m venv .venv && . .venv/bin/activate && python -m pip install --upgrade pip'
+alias xama='git add . && git commit -m"Update repository." && git push'
 
-```shell
-```
-
-## 
-
-```shell
 ```
