@@ -25,6 +25,20 @@ sudo scutil --set HostName machine.com
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 ```
 
+## Instalar as últimas versões finais do python
+
+```shell
+pyenv install 3.10
+pyenv install 3.11
+pyenv install 3.12
+```
+
+## Definir versão padrão/global
+
+```shell
+pyenv global 3.11
+```
+
 ## Criar variável de ambiente e habilitar o pyenv
 
 ```shell
