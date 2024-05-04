@@ -89,7 +89,6 @@ source $ZSH/oh-my-zsh.sh
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
 
 alias start-venv='python -m venv .venv && . .venv/bin/activate && python -m pip install --upgrade pip'
 alias xama='git add . && git commit -m"Update repository." && git push'
