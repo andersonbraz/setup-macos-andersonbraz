@@ -70,7 +70,7 @@ plugins=(
 )
 ```
 
-## Geralmente ao final meu arquivo ~/.zshrc assim:
+## Geralmente ao final meu arquivo ~/.zshrc fica assim:
 
 ```shell
 export ZSH="$HOME/.oh-my-zsh"
